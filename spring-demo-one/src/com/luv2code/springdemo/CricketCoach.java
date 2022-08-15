@@ -13,7 +13,7 @@ public class CricketCoach implements Coach {
 	//our setter method for injecting dependency
 	public void setFortuneService(FortuneService fortuneService) {
 		System.out.println("Cricket coach inside the setter method");
-		this.fortuneService = fortuneService;
+		this.fortuneService = fortuneService; 
 	}
 		
 	@Override
