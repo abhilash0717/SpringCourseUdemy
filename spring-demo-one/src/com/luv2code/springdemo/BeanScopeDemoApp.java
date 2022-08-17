@@ -1,0 +1,17 @@
+package com.luv2code.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanScopeDemoApp {
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beanScope-applicationContext.xml");
+		
+		Coach theCoach = context.getBean("newCoach", Coach.class);
+		Coach alphaCoach = context.getBean("newCoach", Coach.class);
+		
+		System.out.println(theCoach == alphaCoach);
+		
+		System.out.println(theCoach);
+		System.out.println(alphaCoach);
+	}
+}
