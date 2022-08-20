@@ -1,7 +1,10 @@
 package com.luv2code.springdemo;
 
-public class TrackCoach implements Coach {
+import org.springframework.beans.factory.annotation.Autowired;
 
+public class TrackCoach implements Coach {
+	
+	@Autowired
 	private FortuneService fortuneService;
 	
 	public TrackCoach() {
