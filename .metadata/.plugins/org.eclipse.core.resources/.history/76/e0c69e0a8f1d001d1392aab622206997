@@ -1,0 +1,15 @@
+package com.luv2code.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class RunFortunes {
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		RandomeFortunes rfFortunes = (RandomeFortunes) context.getBean("RandomFortunes", FortuneService.class);
+		
+		System.out.println(rfFortunes.getRandomFortune(1));
+		
+		context.close();
+	}
+}

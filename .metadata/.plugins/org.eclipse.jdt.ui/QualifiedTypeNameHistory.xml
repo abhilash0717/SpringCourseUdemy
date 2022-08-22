@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.BaseballCoach"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.CricketCoach"/>
+    <fullyQualifiedTypeName name="org.springframework.cglib.core.TinyBitSet"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.RandomeFortunes"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.FortuneService"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.Coach"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.luv2code.springDemo.HappyFortuneService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.luv2code.springDemo.SportConfig"/>
+    <fullyQualifiedTypeName name="com.luv2code.springDemo.FortuneService"/>
+    <fullyQualifiedTypeName name="com.luv2code.springDemo.SadFortuneService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.luv2code.springDemo.Coach"/>
+    <fullyQualifiedTypeName name="com.luv2code.springDemo.SwimCoach"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+</qualifiedTypeNameHistroy>
